@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.0-TURBO — 2026-02-19
+## 2.2.0-TURBO — 2026-02-19
 
 Red-team hardening release. 4-agent adversarial audit (simulated gov-level attack),
 7 critical/high fixes applied. 138/138 tests passing. Blockchain integrity chain regenerated.

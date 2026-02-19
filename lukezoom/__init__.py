@@ -12,7 +12,7 @@ Zero-LLM runtime. 1 dependency (pyyaml). MIT License.
 Also available as MemorySystem (1.3 compat).
 """
 
-__version__ = "2.1.0-TURBO"
+__version__ = "2.2.0-TURBO"
 
 from lukezoom.core.types import (
     AfterResult, Context, HealthBitmap, Signal, Trace, Message, MemoryStats, LLMFunc,

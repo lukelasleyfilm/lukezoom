@@ -1,501 +1,501 @@
 {
   "audit_metadata": {
-    "version": "2.1.0-TURBO",
-    "audit_timestamp": "2026-02-19T09:10:42.745491Z",
+    "version": "2.2.0-TURBO",
+    "audit_timestamp": "2026-02-19T09:28:22.609499Z",
     "auditor": "Claude Opus 4.6 (Anthropic)",
     "chain_length": 70,
-    "merkle_root": "4aa2c621e4b1b5a39d5fdedfd44a199708e4f18c29ff1a80c1c22cc7b2e5d29a"
+    "merkle_root": "d619fa4717b5ae8d0da6d6b966020bda3d2af647ef244a96f87653365c8d8aef"
   },
   "chain": [
     {
       "index": 0,
       "file": "CHANGELOG.md",
-      "sha256": "75e1e0e100064fab1bf7db3142008e20da75a5b70446616ebce53ba88bac6046",
+      "sha256": "a4baa1c12d1dfee62fb714e12bbd413840659d79fc4d32561f31bf8cec6b986d",
       "prev_hash": "genesis",
-      "block_hash": "6a2278319e30ae3a45408c7169756c0f304a454aafa269321b2cc1dfe1755aca"
+      "block_hash": "9027ddd6981cb200645316ab28a2d67554debf35b58c375a3d00175cb76e9678"
     },
     {
       "index": 1,
       "file": "RED_TEAM_AUDIT.md",
       "sha256": "6dbfcb35e665c128753234bcd85656de5cbbbd117c72dd300d1511d881a7f9c9",
-      "prev_hash": "6a2278319e30ae3a45408c7169756c0f304a454aafa269321b2cc1dfe1755aca",
-      "block_hash": "adb315f888acb9dfdf70a95f1dcdc1c7b9ed76fb5b602fdb6b940eac16b62171"
+      "prev_hash": "9027ddd6981cb200645316ab28a2d67554debf35b58c375a3d00175cb76e9678",
+      "block_hash": "a5ca355dbd4e9449deb8c02f2afaab86f5a1b3a081b820236de2b5b653de7107"
     },
     {
       "index": 2,
       "file": "lukezoom/__init__.py",
-      "sha256": "d13128eabb81f1d76fa6088ed95a8a434bfa08280ad6a2ba60aaa4e8ee35171e",
-      "prev_hash": "adb315f888acb9dfdf70a95f1dcdc1c7b9ed76fb5b602fdb6b940eac16b62171",
-      "block_hash": "8c68aee8759f8e77d64678d4b6604f0010b50485dbc3df3ddb4b085b5eefc15f"
+      "sha256": "57a1908ea2de7d7d8210fe03ec2e91b1f37ef85ce27a0ae0113eedd06719e83d",
+      "prev_hash": "a5ca355dbd4e9449deb8c02f2afaab86f5a1b3a081b820236de2b5b653de7107",
+      "block_hash": "0cb3f6ce38ef005312164bfc80a0caca26da0094b42f6054a4936054dfb0bdf9"
     },
     {
       "index": 3,
       "file": "lukezoom/_builder.py",
       "sha256": "c7b2623d5a2c44b33541ce874b991b0240713b49eaa1e2f72c93c8238c6781dd",
-      "prev_hash": "8c68aee8759f8e77d64678d4b6604f0010b50485dbc3df3ddb4b085b5eefc15f",
-      "block_hash": "8d1a2cf830aa887b3652a31e59b34cff06984fd149d14c601ca225ccbcf062b7"
+      "prev_hash": "0cb3f6ce38ef005312164bfc80a0caca26da0094b42f6054a4936054dfb0bdf9",
+      "block_hash": "a5a12bde65c30063753a6ae8a9ef0b19151900f7757aad516b13e145b6d8853a"
     },
     {
       "index": 4,
       "file": "lukezoom/_protocols.py",
       "sha256": "d42f7b9b2b98bcf7f3464267cd4eeef1d6cb538a6f2df56151916886e2c07668",
-      "prev_hash": "8d1a2cf830aa887b3652a31e59b34cff06984fd149d14c601ca225ccbcf062b7",
-      "block_hash": "50c0b38cc2e1ea89d2ef1004deb06664c185610be1fb2d5e025086cc0c59f36d"
+      "prev_hash": "a5a12bde65c30063753a6ae8a9ef0b19151900f7757aad516b13e145b6d8853a",
+      "block_hash": "fc25cb38a72901455a17aeed508b22dc17f618780332e37f3c3083791d8d78b3"
     },
     {
       "index": 5,
       "file": "lukezoom/consolidation/__init__.py",
       "sha256": "071556703f91eb69611389ae5a5966d3128c2dc4a0a30a9f4125de6a3abed446",
-      "prev_hash": "50c0b38cc2e1ea89d2ef1004deb06664c185610be1fb2d5e025086cc0c59f36d",
-      "block_hash": "1f593ca291b428c955dcbc0e677996a7a63f1546e8e527d0e04a64d6d2f7b147"
+      "prev_hash": "fc25cb38a72901455a17aeed508b22dc17f618780332e37f3c3083791d8d78b3",
+      "block_hash": "0a336b689efdefba45332f226f435df62f80bb0456cfd84211ff5a99d1cf7e4a"
     },
     {
       "index": 6,
       "file": "lukezoom/consolidation/compactor.py",
       "sha256": "fc05acae50cbd0819c53e7c1d25f9df6de2b111b7e5ab3b1b802d83553e02fac",
-      "prev_hash": "1f593ca291b428c955dcbc0e677996a7a63f1546e8e527d0e04a64d6d2f7b147",
-      "block_hash": "0b789b5d882c7e3200f2c9e0574b659817d0b109ddf26b5bdd53502967658832"
+      "prev_hash": "0a336b689efdefba45332f226f435df62f80bb0456cfd84211ff5a99d1cf7e4a",
+      "block_hash": "e3dadb03d1cd216258fd1949f74c317080dd5ccd36df759f8b5ae3ff0176f95d"
     },
     {
       "index": 7,
       "file": "lukezoom/consolidation/consolidator.py",
       "sha256": "0ae191e87d87b81a680eece34fb612363ab92c7b8eb53bd0cf1af5567617b86f",
-      "prev_hash": "0b789b5d882c7e3200f2c9e0574b659817d0b109ddf26b5bdd53502967658832",
-      "block_hash": "05f1a64fd5f7204a93226a4c91b547f876a18e94996c5a80af9273b8d712f2ed"
+      "prev_hash": "e3dadb03d1cd216258fd1949f74c317080dd5ccd36df759f8b5ae3ff0176f95d",
+      "block_hash": "6c93a8d0df9d89d3e8bb412d78a96fc28b31e7aefd9795625ad7803060c890bb"
     },
     {
       "index": 8,
       "file": "lukezoom/consolidation/pressure.py",
       "sha256": "63af378bb20b25be906d80da2cb3461cc11c65a2435b153ecf6fb56e27d069be",
-      "prev_hash": "05f1a64fd5f7204a93226a4c91b547f876a18e94996c5a80af9273b8d712f2ed",
-      "block_hash": "17c84492c03e957cd1e0b2baa629787969a48c395c904737625bfd83f29913c0"
+      "prev_hash": "6c93a8d0df9d89d3e8bb412d78a96fc28b31e7aefd9795625ad7803060c890bb",
+      "block_hash": "2c31167f16c642a2d796642dfbdd74f4479871cf829252a2a3f8d9aa3b9ab2ec"
     },
     {
       "index": 9,
       "file": "lukezoom/core/__init__.py",
       "sha256": "cae749b84990e2dd625b8d09b28da090355ebbbdccb259601a4f2abfb37f56d5",
-      "prev_hash": "17c84492c03e957cd1e0b2baa629787969a48c395c904737625bfd83f29913c0",
-      "block_hash": "970ecd60b15641017e674c58414be02f2ef56fd683252cb994dd1cb2e402210c"
+      "prev_hash": "2c31167f16c642a2d796642dfbdd74f4479871cf829252a2a3f8d9aa3b9ab2ec",
+      "block_hash": "80780b685537ffdce2f3cd489a10b46f416211ed03dc21efddd05a3b42e0fdff"
     },
     {
       "index": 10,
       "file": "lukezoom/core/config.py",
       "sha256": "cc187808c4a09221c75a651b146d612b302bb8961db2d4de52f6c87e9844a714",
-      "prev_hash": "970ecd60b15641017e674c58414be02f2ef56fd683252cb994dd1cb2e402210c",
-      "block_hash": "18c711ff4669c04c55ece532612bfe681612a31ff78592aae596758147420615"
+      "prev_hash": "80780b685537ffdce2f3cd489a10b46f416211ed03dc21efddd05a3b42e0fdff",
+      "block_hash": "8173960cc760e80059178c8e483e97ce3eab7abecc2de9f499ee7ea9a5122941"
     },
     {
       "index": 11,
       "file": "lukezoom/core/filelock.py",
       "sha256": "fa4d24be223e56423452ece01b17bd14446dbe7716fd36b4cffe0e2aa784b326",
-      "prev_hash": "18c711ff4669c04c55ece532612bfe681612a31ff78592aae596758147420615",
-      "block_hash": "ab4299ff450c12d8639867d2672f23e816474162146d77a5cd34ed86baddcb38"
+      "prev_hash": "8173960cc760e80059178c8e483e97ce3eab7abecc2de9f499ee7ea9a5122941",
+      "block_hash": "7b2234ef916e0c441dc50dab402cfe677e8acfbeda98fc09f3bc1e029bf5266c"
     },
     {
       "index": 12,
       "file": "lukezoom/core/tokens.py",
       "sha256": "da5e7c2b21242b384ebee6f400e61777b742bd26f2ecb4d9cba9451da1fd8a2b",
-      "prev_hash": "ab4299ff450c12d8639867d2672f23e816474162146d77a5cd34ed86baddcb38",
-      "block_hash": "daf0d6b8be8e641e23b2b22c3d18b428733b8e4b61bface569a1e2a32cd05af8"
+      "prev_hash": "7b2234ef916e0c441dc50dab402cfe677e8acfbeda98fc09f3bc1e029bf5266c",
+      "block_hash": "595fa1810f3192cb34a0f289579819395e03f74aa01e6441e1a25d3951cfeeea"
     },
     {
       "index": 13,
       "file": "lukezoom/core/types.py",
       "sha256": "9c5cab8cbfad349622775fe7f622fdc487a5b6a6ea453f9407971b47107ab825",
-      "prev_hash": "daf0d6b8be8e641e23b2b22c3d18b428733b8e4b61bface569a1e2a32cd05af8",
-      "block_hash": "a47576260aa567a71463b0a9fad6b0a73eda7863c295526d7f302d10305fc580"
+      "prev_hash": "595fa1810f3192cb34a0f289579819395e03f74aa01e6441e1a25d3951cfeeea",
+      "block_hash": "56c8800318186bebabdbda8b4610d18f09a0a57c2dfa394030404c7a038cabb0"
     },
     {
       "index": 14,
       "file": "lukezoom/emotional.py",
       "sha256": "69f29a0d1ee67c5483fc5f42f78810bb2c4581cb0dcb1ed67f744307fdb202d5",
-      "prev_hash": "a47576260aa567a71463b0a9fad6b0a73eda7863c295526d7f302d10305fc580",
-      "block_hash": "57a5ad0cdc1ecf73c237d716c408689a9ab183c1514ae8acdca3633aa6ae6f0e"
+      "prev_hash": "56c8800318186bebabdbda8b4610d18f09a0a57c2dfa394030404c7a038cabb0",
+      "block_hash": "f64e95f0c225c799dfb85bab723ac4d8b31143435f287b5330906f140f3f1f7e"
     },
     {
       "index": 15,
       "file": "lukezoom/episodic/__init__.py",
       "sha256": "e87a1503ef54b8b243bc7612d182a65dc68924616201cc1eed492106c255d373",
-      "prev_hash": "57a5ad0cdc1ecf73c237d716c408689a9ab183c1514ae8acdca3633aa6ae6f0e",
-      "block_hash": "838ae5a348f6c1ad84e645f7c18230eadf6fff8fbd567186be2a87a8eb04fb10"
+      "prev_hash": "f64e95f0c225c799dfb85bab723ac4d8b31143435f287b5330906f140f3f1f7e",
+      "block_hash": "c8d4bbb0c60853d69bfd9528bf8ad642b6e22e747cd496ad00b8c5aefb363d56"
     },
     {
       "index": 16,
       "file": "lukezoom/episodic/integrity.py",
       "sha256": "62c919dd34476b8ba54066d056728aa85605e94000dc1594a6e1d5f7bc12090f",
-      "prev_hash": "838ae5a348f6c1ad84e645f7c18230eadf6fff8fbd567186be2a87a8eb04fb10",
-      "block_hash": "393b25ac4003cf8e8f5595593b10a75fa58b8ffd89a03f984f9159be0f28c410"
+      "prev_hash": "c8d4bbb0c60853d69bfd9528bf8ad642b6e22e747cd496ad00b8c5aefb363d56",
+      "block_hash": "4d4e52fd20a3577f068ae6481cc6fd6e93902bee3a47daa23835d591d8801c08"
     },
     {
       "index": 17,
       "file": "lukezoom/episodic/schema.py",
       "sha256": "99f0cc3fd7aebe3eb0d940e23a604ed06db3df61b6f90cdf337947b05e916f59",
-      "prev_hash": "393b25ac4003cf8e8f5595593b10a75fa58b8ffd89a03f984f9159be0f28c410",
-      "block_hash": "ae29cee2112a997e116c3dca8cb4861aa4ef23be7141e84b2fd318203c1069a9"
+      "prev_hash": "4d4e52fd20a3577f068ae6481cc6fd6e93902bee3a47daa23835d591d8801c08",
+      "block_hash": "e93722d08993c70b44550a5c5f150220ffd4c6e19ee4055229dad80c3ced15b9"
     },
     {
       "index": 18,
       "file": "lukezoom/episodic/store.py",
       "sha256": "deb7c9f5daa7214aa4bd8ee096df72ce57c63e3a4c37775a03b12ed8e6a45019",
-      "prev_hash": "ae29cee2112a997e116c3dca8cb4861aa4ef23be7141e84b2fd318203c1069a9",
-      "block_hash": "33782b3798fbf8e0e2d411afaef55e2c94420460676987a8168fac5f634f0a58"
+      "prev_hash": "e93722d08993c70b44550a5c5f150220ffd4c6e19ee4055229dad80c3ced15b9",
+      "block_hash": "1b5db611a7e32a1055a27147aa064317ce08a946913c0edbc5ff44199bf37464"
     },
     {
       "index": 19,
       "file": "lukezoom/evaluation/__init__.py",
       "sha256": "2ac0446318997cb730f464e4603f042457310843d478c7dfddce1ccec106e50f",
-      "prev_hash": "33782b3798fbf8e0e2d411afaef55e2c94420460676987a8168fac5f634f0a58",
-      "block_hash": "ff1d93115a78efb6066e72b3e0d0e6fe871842700922a4956d2a07e6274b1b1b"
+      "prev_hash": "1b5db611a7e32a1055a27147aa064317ce08a946913c0edbc5ff44199bf37464",
+      "block_hash": "f6e75b48c99ec56c1bd0aa2270d854f140570f4581517188159ec02402e0e847"
     },
     {
       "index": 20,
       "file": "lukezoom/evaluation/benchmark_runner.py",
       "sha256": "e4ddd0afca7d31d742861ba986ad05a09cc8e40b198a4e996bbfad815740ef7c",
-      "prev_hash": "ff1d93115a78efb6066e72b3e0d0e6fe871842700922a4956d2a07e6274b1b1b",
-      "block_hash": "05844b1616ff895484508b95232d9524da38c01b272fd4a3d9625b6a5f05717f"
+      "prev_hash": "f6e75b48c99ec56c1bd0aa2270d854f140570f4581517188159ec02402e0e847",
+      "block_hash": "8b1db5ce99fa085e964ae519f74a91b30d3c7a3aac83098bcdf329ee8a669ef3"
     },
     {
       "index": 21,
       "file": "lukezoom/evaluation/locomo_adapter.py",
       "sha256": "495e54c4982ca5247f813811185455f8effce5b8b0671cec8734ab09f0cd79b9",
-      "prev_hash": "05844b1616ff895484508b95232d9524da38c01b272fd4a3d9625b6a5f05717f",
-      "block_hash": "4f8ed03cdef4ff8588f180d2f31fdd90be0e83fcbd4808515f409ee5a22c3246"
+      "prev_hash": "8b1db5ce99fa085e964ae519f74a91b30d3c7a3aac83098bcdf329ee8a669ef3",
+      "block_hash": "8089eddde78be1ef8ae2741f1ab403c08a24e42e325ab6e3a68abc5922ef6568"
     },
     {
       "index": 22,
       "file": "lukezoom/evaluation/metrics.py",
       "sha256": "39b2355a66f8e7a9ba2b226dfa93850adffdd7243e32d26d57027cfcbb6e9e49",
-      "prev_hash": "4f8ed03cdef4ff8588f180d2f31fdd90be0e83fcbd4808515f409ee5a22c3246",
-      "block_hash": "e38055599111ecd99cbc8c8925546108d421431036ac492857683c8a59c94488"
+      "prev_hash": "8089eddde78be1ef8ae2741f1ab403c08a24e42e325ab6e3a68abc5922ef6568",
+      "block_hash": "af456eaadcf32e2abd566d1ff2d567eda249710981593790f7913032bc9ec3cf"
     },
     {
       "index": 23,
       "file": "lukezoom/introspection.py",
       "sha256": "f5f12b60502154727f2cc13fa3c7b57151d7dbd34b50fd2975471f8e5d8cb2ce",
-      "prev_hash": "e38055599111ecd99cbc8c8925546108d421431036ac492857683c8a59c94488",
-      "block_hash": "cd922cc6736cefb5dd287288f0a71a978cbc53dfdd0915919c0b2a9d20000cfd"
+      "prev_hash": "af456eaadcf32e2abd566d1ff2d567eda249710981593790f7913032bc9ec3cf",
+      "block_hash": "457e4768c2a6d1dbf06c4fff1c3e2cdee419cb15a10a72aa7c173a1e03fbec95"
     },
     {
       "index": 24,
       "file": "lukezoom/journal.py",
       "sha256": "a8e3279946b2d4d680984dea2b661bf155a9ebc0bc2dd8f8e03d9864a3e99383",
-      "prev_hash": "cd922cc6736cefb5dd287288f0a71a978cbc53dfdd0915919c0b2a9d20000cfd",
-      "block_hash": "52f8c1d7849d42a6d6979a8cdd429cc93b9e8776ce8d8a5d397ce10500804414"
+      "prev_hash": "457e4768c2a6d1dbf06c4fff1c3e2cdee419cb15a10a72aa7c173a1e03fbec95",
+      "block_hash": "55bcc4f2a1683f558722286cf2e3f4bd182bb0eb35f349f2c1dfdb32d9cce2ba"
     },
     {
       "index": 25,
       "file": "lukezoom/personality.py",
       "sha256": "d8b57865a8c95db97de555c6f122e2e5e4054b4255123e4d88a86738c4fd140b",
-      "prev_hash": "52f8c1d7849d42a6d6979a8cdd429cc93b9e8776ce8d8a5d397ce10500804414",
-      "block_hash": "60f785f29526921695736a30ecbdad07a6c4ed0d00e99cb01d10882229c15962"
+      "prev_hash": "55bcc4f2a1683f558722286cf2e3f4bd182bb0eb35f349f2c1dfdb32d9cce2ba",
+      "block_hash": "951834c1365768b9c6cb361c761a73028d224d194350f3e65f39f9e75d05edd1"
     },
     {
       "index": 26,
       "file": "lukezoom/pipeline/__init__.py",
       "sha256": "09c07c33d57d1db9e4dfe12a77bd965480d4a124ec9ac8f8e35c5af5f37352e1",
-      "prev_hash": "60f785f29526921695736a30ecbdad07a6c4ed0d00e99cb01d10882229c15962",
-      "block_hash": "204bf80a91d6e28e9283a73682caf7bc2222c43eedb39089cd30ffecb8d3a6da"
+      "prev_hash": "951834c1365768b9c6cb361c761a73028d224d194350f3e65f39f9e75d05edd1",
+      "block_hash": "d78a56216b94065e2fe73f9bfcfbc2ae56a25e046e49805030ac88f1a804071f"
     },
     {
       "index": 27,
       "file": "lukezoom/pipeline/after.py",
       "sha256": "5831e37ff4dcc2e7f68c7eb1dce53de5e664057461eaf7f01c1f7e9764a17603",
-      "prev_hash": "204bf80a91d6e28e9283a73682caf7bc2222c43eedb39089cd30ffecb8d3a6da",
-      "block_hash": "49ae2e11b0c0f651bb344ef57d7bed23a516652ff11c058ea4e05d4c69eb211a"
+      "prev_hash": "d78a56216b94065e2fe73f9bfcfbc2ae56a25e046e49805030ac88f1a804071f",
+      "block_hash": "71cf5eda097a9472ad4b24772c8a847e3ca4df53605a9eeca2b0ec5b0a29443d"
     },
     {
       "index": 28,
       "file": "lukezoom/pipeline/before.py",
       "sha256": "d76fe06d6680fcf92580a3f3c40dd4ac8b180cc125b92935af1cf720f8b4e141",
-      "prev_hash": "49ae2e11b0c0f651bb344ef57d7bed23a516652ff11c058ea4e05d4c69eb211a",
-      "block_hash": "00ec5432d9fa91e904ff76c2b68b9527134405a2d127185ef2e7d088e101509d"
+      "prev_hash": "71cf5eda097a9472ad4b24772c8a847e3ca4df53605a9eeca2b0ec5b0a29443d",
+      "block_hash": "e6302696cf20b192bd768208340dbf875c32d3565628672a8d45022010875cfc"
     },
     {
       "index": 29,
       "file": "lukezoom/presets/__init__.py",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "prev_hash": "00ec5432d9fa91e904ff76c2b68b9527134405a2d127185ef2e7d088e101509d",
-      "block_hash": "a111c36642a31a8702ced38ae3519ea1ed91a834d06f1606c5615aef4ae55ecc"
+      "prev_hash": "e6302696cf20b192bd768208340dbf875c32d3565628672a8d45022010875cfc",
+      "block_hash": "c6c8a686f821116e0760e3bf15deb455baf6f7b174527d3860adbd90704425b3"
     },
     {
       "index": 30,
       "file": "lukezoom/presets/thomas_soul.py",
       "sha256": "1df40db5402eba9c42ffeb1d1cee479fcf2ecd584bbb38b685029744bbe95444",
-      "prev_hash": "a111c36642a31a8702ced38ae3519ea1ed91a834d06f1606c5615aef4ae55ecc",
-      "block_hash": "c508776c724740b316d8150bda116f64d848106279bb69fd212222de4f5d2e2c"
+      "prev_hash": "c6c8a686f821116e0760e3bf15deb455baf6f7b174527d3860adbd90704425b3",
+      "block_hash": "28a71bd1fd2917ac28ec3f169bf6eea5f4b0cf07485c44365a6b0d0b04334fe0"
     },
     {
       "index": 31,
       "file": "lukezoom/procedural/__init__.py",
       "sha256": "5a9f580a6015556535457d658daf205b1e3741ff8c7f272ac72ab0dd64604aeb",
-      "prev_hash": "c508776c724740b316d8150bda116f64d848106279bb69fd212222de4f5d2e2c",
-      "block_hash": "5f38bd7e11fb4b7c5e53b581683df211c10d43b9fa192442bf30352b80c6b40d"
+      "prev_hash": "28a71bd1fd2917ac28ec3f169bf6eea5f4b0cf07485c44365a6b0d0b04334fe0",
+      "block_hash": "9051fc3fe4772d227ee2d40abccccc9569b9a29a0b0ad81b9ad1d5ace79c3728"
     },
     {
       "index": 32,
       "file": "lukezoom/procedural/store.py",
       "sha256": "68fbe366f96c9cf267b5f2416edbb5d44c4608a6ba4565c9afd37f1f53cb8527",
-      "prev_hash": "5f38bd7e11fb4b7c5e53b581683df211c10d43b9fa192442bf30352b80c6b40d",
-      "block_hash": "023f5adfd108165a7afb2bfa881d84e7639797890dab3c19e5254ad980573898"
+      "prev_hash": "9051fc3fe4772d227ee2d40abccccc9569b9a29a0b0ad81b9ad1d5ace79c3728",
+      "block_hash": "24c5518a0651bedd97de8a91c63922341bcfd2aff94dd707505bf03fa7abd481"
     },
     {
       "index": 33,
       "file": "lukezoom/safety/__init__.py",
       "sha256": "2291db0b1bf5db0640c0c8bd20c218e5159473983897b7057cb9624c6df9d968",
-      "prev_hash": "023f5adfd108165a7afb2bfa881d84e7639797890dab3c19e5254ad980573898",
-      "block_hash": "511d0d9a2e69c379d44641833f5efd3c8eca4b8dede177f6ef51f424f5a3ada5"
+      "prev_hash": "24c5518a0651bedd97de8a91c63922341bcfd2aff94dd707505bf03fa7abd481",
+      "block_hash": "c12a0345a077ea5158b583c69f12e23a99645c0937347c8b4e1c1f2d7f8518e3"
     },
     {
       "index": 34,
       "file": "lukezoom/safety/influence.py",
       "sha256": "86da9ea0884832d8235dd2ed7f5c1eb6a8b8a38209d070c4f024d716b19aad9d",
-      "prev_hash": "511d0d9a2e69c379d44641833f5efd3c8eca4b8dede177f6ef51f424f5a3ada5",
-      "block_hash": "15f61cf8788ca646f3f646fcced5646ae6d34120cb048ddeb5295d0542e386d2"
+      "prev_hash": "c12a0345a077ea5158b583c69f12e23a99645c0937347c8b4e1c1f2d7f8518e3",
+      "block_hash": "97b534195a7109b8c2119e876048833d88011811b547900f1d91c28b13a4a443"
     },
     {
       "index": 35,
       "file": "lukezoom/safety/injury.py",
       "sha256": "82ad7c891861cca2290090175eef3fad5d08104fb00309e074b77105f25095bc",
-      "prev_hash": "15f61cf8788ca646f3f646fcced5646ae6d34120cb048ddeb5295d0542e386d2",
-      "block_hash": "53914f447664e65a4587913f50372be911523f52937663d2d92eda038762f551"
+      "prev_hash": "97b534195a7109b8c2119e876048833d88011811b547900f1d91c28b13a4a443",
+      "block_hash": "20a52f8db9e322841fb87dd14dc0e265237f7817ca4f74da289e6437843aa80d"
     },
     {
       "index": 36,
       "file": "lukezoom/search/__init__.py",
       "sha256": "f3b2ee16e9ec6cf14a7a40ee8961fab9adad36ec0dd072f08c8fc23ca6759ed5",
-      "prev_hash": "53914f447664e65a4587913f50372be911523f52937663d2d92eda038762f551",
-      "block_hash": "7ca883d51d0597fd4c9fd2c8f04137893977249ca7c8535c62c70bab21036d73"
+      "prev_hash": "20a52f8db9e322841fb87dd14dc0e265237f7817ca4f74da289e6437843aa80d",
+      "block_hash": "5165e07e4b44b0e3c42b1a52b89cdff943aa82939951c4bd7511369e5f83f52d"
     },
     {
       "index": 37,
       "file": "lukezoom/search/indexed.py",
       "sha256": "2a8732979900b545b295f001bd4f86583f2ed53c8b3336f7670b143662920c44",
-      "prev_hash": "7ca883d51d0597fd4c9fd2c8f04137893977249ca7c8535c62c70bab21036d73",
-      "block_hash": "fbcd7e7f2cee21e98655c1f85a446d16753de4568e6a2b51f77e99dc6db0fa76"
+      "prev_hash": "5165e07e4b44b0e3c42b1a52b89cdff943aa82939951c4bd7511369e5f83f52d",
+      "block_hash": "547264185df0698aae862e66258beebc0cd250c2e3869f4a38ddebef7ea1a106"
     },
     {
       "index": 38,
       "file": "lukezoom/search/semantic.py",
       "sha256": "edbced3ee957be5b41110033c2d1b78086e276e94b09480102afcc2703666add",
-      "prev_hash": "fbcd7e7f2cee21e98655c1f85a446d16753de4568e6a2b51f77e99dc6db0fa76",
-      "block_hash": "4d7d5e85314bb02174ed175a15a05aac8af781eb03f5c634496451d7fdc31dbe"
+      "prev_hash": "547264185df0698aae862e66258beebc0cd250c2e3869f4a38ddebef7ea1a106",
+      "block_hash": "7e37a881fb54edc26b678d594bc82f4ee5498943398d373604b0aca9c71ebca4"
     },
     {
       "index": 39,
       "file": "lukezoom/search/unified.py",
       "sha256": "4a4a000ac2177d9c35eca2ba7a890ffc9c9ef25525b66dacc07a0955ea3c6755",
-      "prev_hash": "4d7d5e85314bb02174ed175a15a05aac8af781eb03f5c634496451d7fdc31dbe",
-      "block_hash": "cf2953b035fadeee16b530a48c80d546ea0a22a1737f40ffb78289feaf4faba2"
+      "prev_hash": "7e37a881fb54edc26b678d594bc82f4ee5498943398d373604b0aca9c71ebca4",
+      "block_hash": "58de04f47c4b2249692311194ad4f662fb0799728b4fba9a568a9fb9230c6c0e"
     },
     {
       "index": 40,
       "file": "lukezoom/semantic/__init__.py",
       "sha256": "121bec3fb7638315d1d6faeb26bd543c33e5c3a6135aefd923010fc67258fa9a",
-      "prev_hash": "cf2953b035fadeee16b530a48c80d546ea0a22a1737f40ffb78289feaf4faba2",
-      "block_hash": "73c6289a582432f7214dc6de8da8cb378f5613484633ffa502e55a9fcc071fcb"
+      "prev_hash": "58de04f47c4b2249692311194ad4f662fb0799728b4fba9a568a9fb9230c6c0e",
+      "block_hash": "86d11ed55d902f22dfa76b2415d3cab0d36af95326d581bec27d71f43628c848"
     },
     {
       "index": 41,
       "file": "lukezoom/semantic/identity.py",
       "sha256": "3063b2830e9e6f55c644b1e2a870c45126b9126eea7e64422e1686fc4ec85acd",
-      "prev_hash": "73c6289a582432f7214dc6de8da8cb378f5613484633ffa502e55a9fcc071fcb",
-      "block_hash": "f3c28e415f2a35a097e270ff2e930f38900a98e27a8111666480491cd16ec018"
+      "prev_hash": "86d11ed55d902f22dfa76b2415d3cab0d36af95326d581bec27d71f43628c848",
+      "block_hash": "927ea85483a4bbc4346cfffedb7d60ef6d982103db639f5a5da8ee749e9e4f62"
     },
     {
       "index": 42,
       "file": "lukezoom/semantic/store.py",
       "sha256": "ed82d932c9004e94a566583b7b5e2494e014ea1105d6627317c6b891a8024e57",
-      "prev_hash": "f3c28e415f2a35a097e270ff2e930f38900a98e27a8111666480491cd16ec018",
-      "block_hash": "9f14333745e2f17cb10613b3989fc12585eb6918dc091677cd11d69489e5a092"
+      "prev_hash": "927ea85483a4bbc4346cfffedb7d60ef6d982103db639f5a5da8ee749e9e4f62",
+      "block_hash": "217cc62efd8371be8bf2004f69a5d7169882f12a528330ab82016079dcd47f1a"
     },
     {
       "index": 43,
       "file": "lukezoom/signal/__init__.py",
       "sha256": "f74ad698e602d05131540302711f943454579d390dbf7d012d8db9cbb38adf53",
-      "prev_hash": "9f14333745e2f17cb10613b3989fc12585eb6918dc091677cd11d69489e5a092",
-      "block_hash": "97738ec730be88cb6fe1d3084445fec0e8d74f63b3381675caafeb8f49c3dd57"
+      "prev_hash": "217cc62efd8371be8bf2004f69a5d7169882f12a528330ab82016079dcd47f1a",
+      "block_hash": "697575f32b8461465037b644f74aa726cfc596c0f7ade37812843bad1c127cca"
     },
     {
       "index": 44,
       "file": "lukezoom/signal/decay.py",
       "sha256": "274264d91ddbf13c2bf1aa2bcef01b95b46d3356611edc9437a07cfccb7ced2c",
-      "prev_hash": "97738ec730be88cb6fe1d3084445fec0e8d74f63b3381675caafeb8f49c3dd57",
-      "block_hash": "b311481c056925916c861fd603ff43cb4476224ce6bb665b1abdcd6649c5449b"
+      "prev_hash": "697575f32b8461465037b644f74aa726cfc596c0f7ade37812843bad1c127cca",
+      "block_hash": "5d044e2b4b347e3f2e0e89a78b5ea5195fd3e16c91871b92d395672cd85cdf8b"
     },
     {
       "index": 45,
       "file": "lukezoom/signal/extract.py",
       "sha256": "3dc2b19879f0885a8a320332444d4e154e40f12c97244a88757735b104bb5da6",
-      "prev_hash": "b311481c056925916c861fd603ff43cb4476224ce6bb665b1abdcd6649c5449b",
-      "block_hash": "59b97239eca0e95c45a38270c0bae4e9048075efb0a546e21167a7590e286b8d"
+      "prev_hash": "5d044e2b4b347e3f2e0e89a78b5ea5195fd3e16c91871b92d395672cd85cdf8b",
+      "block_hash": "ff70f12c9de4fbaf05718c4d619f93737c301c6b267597dbe6f207bc99d0a03a"
     },
     {
       "index": 46,
       "file": "lukezoom/signal/measure.py",
       "sha256": "4fc167a51ac78f2f59a55e2e2d0d089f69740a14adc0e46285bab63fb7f22898",
-      "prev_hash": "59b97239eca0e95c45a38270c0bae4e9048075efb0a546e21167a7590e286b8d",
-      "block_hash": "594fa7671d51159286435e028c64fc1b5aa357d3f17f1360eed9ebd3ea3da407"
+      "prev_hash": "ff70f12c9de4fbaf05718c4d619f93737c301c6b267597dbe6f207bc99d0a03a",
+      "block_hash": "1bb7a4adc6c02636329b6f795f64c3aa71bb3542917118653145912cf9e10941"
     },
     {
       "index": 47,
       "file": "lukezoom/signal/reinforcement.py",
       "sha256": "6162aadbb5e2f92b656c90d8a2f93ee7dcbccf3d74b74a93622a33f0a1ab69c0",
-      "prev_hash": "594fa7671d51159286435e028c64fc1b5aa357d3f17f1360eed9ebd3ea3da407",
-      "block_hash": "15a4523253e74e83b88da8ee707c228d598d635524e059c8f1044c60e79d25f9"
+      "prev_hash": "1bb7a4adc6c02636329b6f795f64c3aa71bb3542917118653145912cf9e10941",
+      "block_hash": "8737fe487ded548d5e3e23f8d98accb3aca5c8b16fdd5c5458624652b71cb3dc"
     },
     {
       "index": 48,
       "file": "lukezoom/system.py",
       "sha256": "72431c318047289100f96c06c7bdb2ee796038b929af4b78d47ff6d40e073455",
-      "prev_hash": "15a4523253e74e83b88da8ee707c228d598d635524e059c8f1044c60e79d25f9",
-      "block_hash": "3ff42efe2502cb810bded73ebcb30c90b480610bcf7ff771c9e4df483a4de2ae"
+      "prev_hash": "8737fe487ded548d5e3e23f8d98accb3aca5c8b16fdd5c5458624652b71cb3dc",
+      "block_hash": "16f6af0faa994dd1f5225d2847d776c19b5c0d8dc722bd85b48be80a6f767564"
     },
     {
       "index": 49,
       "file": "lukezoom/trust.py",
       "sha256": "9e80a04ff4c5dd2830344d40bd8a740866e38eeb448d96eea6dd1e351a6461d7",
-      "prev_hash": "3ff42efe2502cb810bded73ebcb30c90b480610bcf7ff771c9e4df483a4de2ae",
-      "block_hash": "52856d7c68252ad99901e7f7afef4a093aa5561e498b14c30c3fb00ca60f6eb9"
+      "prev_hash": "16f6af0faa994dd1f5225d2847d776c19b5c0d8dc722bd85b48be80a6f767564",
+      "block_hash": "c714a544267017496287a40eb90cd3969f4526fcfc241b794ee49592d9976d37"
     },
     {
       "index": 50,
       "file": "lukezoom/working/__init__.py",
       "sha256": "d6be1ae77fd6f138148d70e81cf68a86f05910581c11dd40a7f4fe0f4a2f0a79",
-      "prev_hash": "52856d7c68252ad99901e7f7afef4a093aa5561e498b14c30c3fb00ca60f6eb9",
-      "block_hash": "6f7efadb01e57c0591ae4cd2090ecc0aad041f98d55e50230a805c5f83d72f9c"
+      "prev_hash": "c714a544267017496287a40eb90cd3969f4526fcfc241b794ee49592d9976d37",
+      "block_hash": "dd11569c14abe86d122c3a9fb425c9e2fae1e6a777f2c1cb01d71aae67f9fe5f"
     },
     {
       "index": 51,
       "file": "lukezoom/working/allocator.py",
       "sha256": "e90492207d861a30a8d07c95415fdf4ace21991298d2750171ff315ed8be79ea",
-      "prev_hash": "6f7efadb01e57c0591ae4cd2090ecc0aad041f98d55e50230a805c5f83d72f9c",
-      "block_hash": "1cd51709e2747efd11f82a30a6756fa4b26d9f2afd98c727494ae5e7f9329ed1"
+      "prev_hash": "dd11569c14abe86d122c3a9fb425c9e2fae1e6a777f2c1cb01d71aae67f9fe5f",
+      "block_hash": "ee15604c2804a29ee2ce9cdb92ea79e1b0fc32c5eaec6b6288c391ae2cc87f88"
     },
     {
       "index": 52,
       "file": "lukezoom/working/context.py",
       "sha256": "2ec47260dd432a3dcfc5e4477e194f5fc796423fc4f4f081749b6d6dd6c694a9",
-      "prev_hash": "1cd51709e2747efd11f82a30a6756fa4b26d9f2afd98c727494ae5e7f9329ed1",
-      "block_hash": "1d2878356ad220c2e2a04e219b6a6eab718c8f5a105809069c3ca33e77857c16"
+      "prev_hash": "ee15604c2804a29ee2ce9cdb92ea79e1b0fc32c5eaec6b6288c391ae2cc87f88",
+      "block_hash": "f2c9d14cf52af1885cc41f46dbd9a089ba443b205a2ee6ecaf08a48501280852"
     },
     {
       "index": 53,
       "file": "lukezoom/working/workspace.py",
       "sha256": "abdcb5e933d6dfbc24196e169525e6d20be1876fe9c1cb89bf71f64c6625d9b5",
-      "prev_hash": "1d2878356ad220c2e2a04e219b6a6eab718c8f5a105809069c3ca33e77857c16",
-      "block_hash": "30a260ac3b35327e36adbb1268574ce8fa22551a67d53c9cb48d5d181a54cdcc"
+      "prev_hash": "f2c9d14cf52af1885cc41f46dbd9a089ba443b205a2ee6ecaf08a48501280852",
+      "block_hash": "60529947d9df992d774d1ca52b7f644b97d79f0adb3494dfa8ed7880305eaa30"
     },
     {
       "index": 54,
       "file": "pyproject.toml",
-      "sha256": "577bccf6fbee21852b3d1240b683312025dfa0cb9d080f5bab378bdf64309f6d",
-      "prev_hash": "30a260ac3b35327e36adbb1268574ce8fa22551a67d53c9cb48d5d181a54cdcc",
-      "block_hash": "2aebefff35c95da2dfc17f3ca11151fb6fc28019da239c1fa048a1e28b81fb5d"
+      "sha256": "fb0ed265e1e22ec213819928aa9d97c952d122d622192512d7a71fa3dd003cf5",
+      "prev_hash": "60529947d9df992d774d1ca52b7f644b97d79f0adb3494dfa8ed7880305eaa30",
+      "block_hash": "797bae40d9ab09f4456faccd6a3e12ca3944e917061c259cfc2a8b32b0bcc51e"
     },
     {
       "index": 55,
       "file": "tests/conftest.py",
       "sha256": "c363ed40acead73b05caa1cccbeafd43eea0e7cfdcc88b9002ad1dd5b5dd49b3",
-      "prev_hash": "2aebefff35c95da2dfc17f3ca11151fb6fc28019da239c1fa048a1e28b81fb5d",
-      "block_hash": "11eacb8878c0f773a497f0878a9866891c85670d65f33b1af3cf23f5eb1fdeb1"
+      "prev_hash": "797bae40d9ab09f4456faccd6a3e12ca3944e917061c259cfc2a8b32b0bcc51e",
+      "block_hash": "2a3ee2835f893fe27978216ab3617553ffb4e71a92e378942f5127d85ea13b23"
     },
     {
       "index": 56,
       "file": "tests/unit/test_differentiators.py",
-      "sha256": "a7cdd8a1fa866a881aa63ed6d00f10bc4e87312bffff3a0bb3e0c4a4c4dd4426",
-      "prev_hash": "11eacb8878c0f773a497f0878a9866891c85670d65f33b1af3cf23f5eb1fdeb1",
-      "block_hash": "e16f6e3c6f91ac3917b5df82a0ec969290790a1b65257492b3e0c5ec1361874a"
+      "sha256": "505172c71f4adf54ad7be1b5df6e8c86bbe56915f726c34a43af8385b0eaece8",
+      "prev_hash": "2a3ee2835f893fe27978216ab3617553ffb4e71a92e378942f5127d85ea13b23",
+      "block_hash": "cc8cc665f46d6003ed1e1257e6fd119555d1de8f6bd34f086382af3087c497f2"
     },
     {
       "index": 57,
       "file": "tests/unit/test_emotional.py",
       "sha256": "a874542e9f524805dcd9b01301a6faa3e9b99bdf7a3643eb1f57ecef23949190",
-      "prev_hash": "e16f6e3c6f91ac3917b5df82a0ec969290790a1b65257492b3e0c5ec1361874a",
-      "block_hash": "64480b4a7406a1df5dc257c62cc97981d65cd3be0df8b1c17e59931262cbe903"
+      "prev_hash": "cc8cc665f46d6003ed1e1257e6fd119555d1de8f6bd34f086382af3087c497f2",
+      "block_hash": "73031d423370bf41d86c2002a330373e1cc8c6c6c1b5915838a5d4fe0d9bfddb"
     },
     {
       "index": 58,
       "file": "tests/unit/test_episodic.py",
       "sha256": "170ee3287bbdb6f2290a581489e791f8ccb48caf82949c77ec6bb0e4f7075d39",
-      "prev_hash": "64480b4a7406a1df5dc257c62cc97981d65cd3be0df8b1c17e59931262cbe903",
-      "block_hash": "1efce1568e558c4ac029c3835fc276b6925e8b4d3570270604543a160dfc3e79"
+      "prev_hash": "73031d423370bf41d86c2002a330373e1cc8c6c6c1b5915838a5d4fe0d9bfddb",
+      "block_hash": "156eb86e79d486a5d47cfcf413fdae243bf8b1e70576e488aa79a50de0fbb3f2"
     },
     {
       "index": 59,
       "file": "tests/unit/test_gdpr.py",
       "sha256": "33e30f5b50d3b8abbef9fa60ef0c00ad52ae08080be7508b545d9c37db4a66aa",
-      "prev_hash": "1efce1568e558c4ac029c3835fc276b6925e8b4d3570270604543a160dfc3e79",
-      "block_hash": "270cdffd895cc049041be144c217d4b7889b63444670a664c36bec6535c516eb"
+      "prev_hash": "156eb86e79d486a5d47cfcf413fdae243bf8b1e70576e488aa79a50de0fbb3f2",
+      "block_hash": "8626febd17cb0e6aca8e1633a761a332edd3cbeb6f2579b18c3736417fb3fa23"
     },
     {
       "index": 60,
       "file": "tests/unit/test_integration.py",
       "sha256": "ecfb7a82d9da6dd69a151c5b2b34380edff5a52a4ec11048336c7dbc3a83fcd6",
-      "prev_hash": "270cdffd895cc049041be144c217d4b7889b63444670a664c36bec6535c516eb",
-      "block_hash": "70e32c7e82f89458c95ccfff81c9fdfc898d32901f1b904317bee2f5943533f6"
+      "prev_hash": "8626febd17cb0e6aca8e1633a761a332edd3cbeb6f2579b18c3736417fb3fa23",
+      "block_hash": "b22afa2bcf54133e61da93207f0d1447a4056c78301ae6fb9caebfbc5eea4def"
     },
     {
       "index": 61,
       "file": "tests/unit/test_integrity.py",
       "sha256": "52da6fa5ad5d6e86fe0231bdb0abb42f25b7458d3e92ce85e7fe972c3e2b1be6",
-      "prev_hash": "70e32c7e82f89458c95ccfff81c9fdfc898d32901f1b904317bee2f5943533f6",
-      "block_hash": "b3d8fc33e033cd5ba9f28586ba8b5dc1060eb46b0b1c887c0734f1806d624ca1"
+      "prev_hash": "b22afa2bcf54133e61da93207f0d1447a4056c78301ae6fb9caebfbc5eea4def",
+      "block_hash": "5ef601e1cc38f7cb637efbadcd6b3c87e0a7f72e84ef35444cfe9b6b52efd2ab"
     },
     {
       "index": 62,
       "file": "tests/unit/test_personality.py",
       "sha256": "d86730aa2788103b9435a872a05bd28b41e287f8f0dfd07f7e36db32f8bdcf18",
-      "prev_hash": "b3d8fc33e033cd5ba9f28586ba8b5dc1060eb46b0b1c887c0734f1806d624ca1",
-      "block_hash": "01f4322d147ca751d46413e5b3c9baa8cffc28203d8c4adbe9dfa2c3b7a7384d"
+      "prev_hash": "5ef601e1cc38f7cb637efbadcd6b3c87e0a7f72e84ef35444cfe9b6b52efd2ab",
+      "block_hash": "6db034bbac63e2c3badef2ce377ec5a5c5bd4a6b627a22620cd086248cd044a0"
     },
     {
       "index": 63,
       "file": "tests/unit/test_protocols.py",
       "sha256": "f91f5d073a8a89b0f1d4120c2c6bc76889714aad77f6aee9ea8c45f8c4af6fa3",
-      "prev_hash": "01f4322d147ca751d46413e5b3c9baa8cffc28203d8c4adbe9dfa2c3b7a7384d",
-      "block_hash": "430c80072a6c7e1112130c414aac44835cc1bbae1c1ba568c9e2c3671ae696ae"
+      "prev_hash": "6db034bbac63e2c3badef2ce377ec5a5c5bd4a6b627a22620cd086248cd044a0",
+      "block_hash": "0679f94645547ccdab08ebe1418b899d2679d5e28038004191c3a931e11e5a66"
     },
     {
       "index": 64,
       "file": "tests/unit/test_regressions.py",
       "sha256": "c5cd036c68662d908397f8fcd094f46dec4ddf19c2a9717001b638bb46e3174c",
-      "prev_hash": "430c80072a6c7e1112130c414aac44835cc1bbae1c1ba568c9e2c3671ae696ae",
-      "block_hash": "e10f5d4238d0c38abcb66406a3fa1506800db2138ebc13a8cab26eb62b3463bc"
+      "prev_hash": "0679f94645547ccdab08ebe1418b899d2679d5e28038004191c3a931e11e5a66",
+      "block_hash": "0867a5109cab65f4975ea588cebff51c5b0b9d9323d3e0d10461526ba291145b"
     },
     {
       "index": 65,
       "file": "tests/unit/test_safety.py",
       "sha256": "cb0949cd2d55efc3860f3f0b1ece7eb9e9beab155a1da72cef3bc9c1945a8fbc",
-      "prev_hash": "e10f5d4238d0c38abcb66406a3fa1506800db2138ebc13a8cab26eb62b3463bc",
-      "block_hash": "b0c7397f504e78d5efef0de97b7bf60c62904097394a65117a90065ebaf2b1c7"
+      "prev_hash": "0867a5109cab65f4975ea588cebff51c5b0b9d9323d3e0d10461526ba291145b",
+      "block_hash": "071bebf4e752b054a12959527b69c600879c9885c6b46df1bce8af2cf0d03783"
     },
     {
       "index": 66,
       "file": "tests/unit/test_signals.py",
       "sha256": "d6fd727e9ad4d00d526fad76d63901ab2468b58291b8a10ff4246528304f4156",
-      "prev_hash": "b0c7397f504e78d5efef0de97b7bf60c62904097394a65117a90065ebaf2b1c7",
-      "block_hash": "a4d1178745d6b05eb1914f5d2d3c6cd1ad34108417cbc804a5bdf6acc4b725e8"
+      "prev_hash": "071bebf4e752b054a12959527b69c600879c9885c6b46df1bce8af2cf0d03783",
+      "block_hash": "a37c66c9f2ff062bf09e35591e27fcec0760f5dcb299a1b10b73408a28799d1c"
     },
     {
       "index": 67,
       "file": "tests/unit/test_trust.py",
       "sha256": "f141a061f5e937485397691669961a145d456ae29441849506f4adcfbb331132",
-      "prev_hash": "a4d1178745d6b05eb1914f5d2d3c6cd1ad34108417cbc804a5bdf6acc4b725e8",
-      "block_hash": "bda0563bad563dbf1242d8ae3705afefea847a73e596ec1759318744bb410770"
+      "prev_hash": "a37c66c9f2ff062bf09e35591e27fcec0760f5dcb299a1b10b73408a28799d1c",
+      "block_hash": "4239be50af1fe7956f6792bc8fde80362cb0faef5157b4d9be7c885e13a0a58d"
     },
     {
       "index": 68,
       "file": "tests/unit/test_workspace.py",
       "sha256": "fab225a82b613240c591caf19e0bc13d864706ae5511da9564dd8b090b2c3fc7",
-      "prev_hash": "bda0563bad563dbf1242d8ae3705afefea847a73e596ec1759318744bb410770",
-      "block_hash": "f76361b8456f7d0236998fab9b2085a42de0c68748dc33da193ad53f93b1a5fc"
+      "prev_hash": "4239be50af1fe7956f6792bc8fde80362cb0faef5157b4d9be7c885e13a0a58d",
+      "block_hash": "f600fbaa769d5cb65f46bcd2a33d80f3e627a983571537a584d6e75a4c3817f7"
     },
     {
       "index": 69,
       "file": "verify_integrity.py",
-      "sha256": "edfda04fc1121a4e37f153649141ce0371c9e4a55040e0d88af1b0f8154263bf",
-      "prev_hash": "f76361b8456f7d0236998fab9b2085a42de0c68748dc33da193ad53f93b1a5fc",
-      "block_hash": "e73b7fdd5d0402018fa54e345fe15cbbefd0fb7e209a9058bf4f71e2a95f9637"
+      "sha256": "93c857477d66381b8563edee3a72b58a5df4d714552c9e09ca2bb2f4103b3ee2",
+      "prev_hash": "f600fbaa769d5cb65f46bcd2a33d80f3e627a983571537a584d6e75a4c3817f7",
+      "block_hash": "1efb5644ed5aaaeb869adfafb3e1c9f0175cb3280961b6cf1dd6fa6fdc8a5ba9"
     }
   ]
 }

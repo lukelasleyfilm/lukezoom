@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lukezoom"
-version = "2.1.0-TURBO"
+version = "2.2.0-TURBO"
 description = "Trust-gated cognitive memory for persistent AI agents"
 readme = "README.md"
 license = {text = "MIT"}

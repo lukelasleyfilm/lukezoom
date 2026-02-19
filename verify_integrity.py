@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-LukeZOOM 2.1.0-TURBO — Third-Party Integrity Verification Script
+LukeZOOM 2.2.0-TURBO — Third-Party Integrity Verification Script
 
 Usage:
     python3 verify_integrity.py

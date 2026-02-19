@@ -221,7 +221,7 @@ class TestZeroLLMRuntime:
     def test_only_pyyaml_required(self):
         import lukezoom
         # Check that importing doesn't require anthropic/openai/chromadb
-        assert lukezoom.__version__ == "2.1.0-TURBO"
+        assert lukezoom.__version__ == "2.2.0-TURBO"
 
 
 # ════════════════════════════════════════════════════════════════════
